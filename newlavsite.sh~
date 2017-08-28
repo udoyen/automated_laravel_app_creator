@@ -121,7 +121,7 @@ sudo chown -R www-data:www-data /var/www/html/"$site"
 sleep 3
 echo ""
 echo -e "\e[0;31m Please add yourself to the www-data (apache group) if not in that group already!\e[0m"
-echo -e "\e[0;31m do that with the command \e[0m \e[0;36m 'sudo usermod -a -G www-data' $USER \e[0m"
+echo -e "\e[0;31m do that with the command \e[0m \e[0;36m 'sudo usermod -a -G www-data $USER \e[0m"
 echo ""
 # Activate the config file in apache
 echo -e "\e[0;34m Enabling site...\e[0m"
